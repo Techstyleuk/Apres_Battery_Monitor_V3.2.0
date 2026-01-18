@@ -4,7 +4,7 @@
 The Project is based on: [SensESP_V3-3-Battery_Monitor](https://github.com/Techstyleuk/SensESP_V3-3-Battery_Monitor) with the following additions:
 
 Changes for version 3.2.0
- 1. Change SOC for Battery B to LiFePo4 - complete 
+ 1. Change SOC lookup for Battery B to LiFePo4 - complete 
  2. Add AC Current Sensors x2 - complete
     1. Inverter
     2. Shore Power
