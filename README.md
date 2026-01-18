@@ -6,8 +6,8 @@ The Project is based on: [SensESP_V3-3-Battery_Monitor](https://github.com/Techs
 Changes for version 3.2.0
  1. Change SOC for Battery B to LiFePo4 - complete 
  2. Add AC Current Sensors x2 - complete
-   - Inverter
-   - Shore Power
+    1. Inverter
+    2. Shore Power
  3. 4th INA219 for fuel level sensor - Complete
 
 - The AC Current Sensor [SCT-013-030](https://amzn.to/3LTfUx4)
