@@ -1,4 +1,4 @@
-# Apres_Battery_Monitor_V3.2.0
+# Apres Battery Monitor V3.2.0
 ****This project is under Development and not fully tested yet****
 
 The Project is based on: [SensESP_V3-3-Battery_Monitor](https://github.com/Techstyleuk/SensESP_V3-3-Battery_Monitor) with the following additions:
