@@ -153,9 +153,9 @@ class FuelLevelInterpreter : public CurveInterpolator {
   Adafruit_INA219 ina219_C(0x44);
   Adafruit_INA219 ina219_d(0x45);
 
-  const float RshuntA = 0.0005;
-  const float RshuntB = 0.0005;
-  const float RshuntC = 0.0005;
+  const float RshuntA = 0.00025; //250µohm Shunt - https://www.aliexpress.us/item/3256804780517351.html  
+  const float RshuntB = 0.00025; //250µohm Shunt - https://www.aliexpress.us/item/3256804780517351.html  
+  const float RshuntC = 0.00025; //250µohm Shunt - https://www.aliexpress.us/item/3256804780517351.html  
 
   //float read_A_current_callback() { return (ina219_A.getCurrent_mA() / 1000);}
   float read_A_current_callback() { return ((ina219_A.getShuntVoltage_mV() / 1000) / RshuntA);}
